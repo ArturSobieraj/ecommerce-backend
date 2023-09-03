@@ -20,6 +20,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation group: 'com.okta.spring', name: 'okta-spring-boot-starter', version: '3.0.4'
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '3.1.1'
+    implementation group: 'com.stripe', name: 'stripe-java', version: '22.24.0'
     implementation 'org.springframework.boot:spring-boot-starter-data-rest'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.mysql:mysql-connector-j'
